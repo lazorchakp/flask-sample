@@ -25,7 +25,7 @@ jobs:
 
       - name: Install system dependencies
         run: |
-          sudo apt-get insatll build-essential gcc make automake -yq
+          sudo apt-get install build-essential gcc make automake -yq
           sudo apt-get install autoconf -yq
           sudo apt-get install python3-dev -yq
           sudo apt-get install python-pip -yq
