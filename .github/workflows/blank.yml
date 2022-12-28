@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           sleep 10
-          pip install contrast-agent=5.16.0
+          pip install contrast-agent==5.16.0
           pip install -r requirements.txt
 
       # Optional: Add a step to run tests here (PyTest, Django test suites, etc.)
