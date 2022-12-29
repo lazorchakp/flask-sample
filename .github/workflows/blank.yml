@@ -58,6 +58,7 @@ jobs:
         run: |
           sudo apt install python3
           sudo apt install python3-pip
+          sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 
       - name: Check Python.h
         run: |
