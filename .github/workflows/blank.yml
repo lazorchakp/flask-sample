@@ -56,8 +56,8 @@ jobs:
 
       - name: Install Python
         run: |
-          apt install python3
-          apt install python3-pip
+          sudo apt install python3
+          sudo apt install python3-pip
 
       - name: Check Python.h
         run: |
