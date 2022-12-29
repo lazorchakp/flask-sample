@@ -57,6 +57,7 @@ jobs:
       - name: Install Python
         run: |
           sudo apt install -y python3.10 python3.10-dev
+          ln -s /usr/include/python3.10 /opt/python/3.10.8/include/python3.10
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
