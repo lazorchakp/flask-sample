@@ -56,12 +56,7 @@ jobs:
 
       - name: Install Python
         run: |
-          sudo apt remove python3
-          sudo apt remove python3-pip
-          sudo apt remove python3-dev
-          sudo apt install python3
-          sudo apt install python3-pip
-          sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+          sudo apt install -y  python3.10-dev
 
       - name: Check Python.h
         run: |
