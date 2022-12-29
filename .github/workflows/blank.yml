@@ -54,6 +54,11 @@ jobs:
           name: python-app
           path: .
 
+      - name: Install Python
+        run: |
+          apt install python3
+          apt install python3-pip
+
       - name: Check Python.h
         run: |
           find / -name Python.h
