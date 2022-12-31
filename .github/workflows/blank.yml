@@ -64,6 +64,8 @@ jobs:
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
+          env:
+            LIBRARY_PATH: /opt/python/3.10.8/include/python3.10
         id: deploy-to-webapp
         with:
           app-name: 'sugtarpy'
