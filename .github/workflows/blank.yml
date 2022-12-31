@@ -58,7 +58,7 @@ jobs:
         run: |
           sudo apt install -y python3.10 python3.10-dev
           mkdir -p /opt/python/3.10.8/include
-          ln -s /usr/include/python3.10 /opt/python/3.10.8/include/python3.10
+          cp -r /opt/az/include/python3.10/ /opt/python/3.10.8/include/python3.10
           sudo find /opt -name Python.h
           
       - name: 'Deploy to Azure Web App'
