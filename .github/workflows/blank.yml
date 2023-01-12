@@ -73,4 +73,4 @@ jobs:
         with:
           app-name: 'sugtarpy'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_b8167d657a2e4f1c89b5a98757741f0a }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
